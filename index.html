@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,200&family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Vijay Project Marmeto</title>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <div class="page">
+    <div class="container">
+        <div class="left">
+            <img src="./Images/Image11.jpg" id="bigone" class="large-image" >
+            <img src="./Images/Image2.jpg" class="small" onclick="changeImage(this)">
+            <img src="./Images/Image3jpg.jpg" class="small" onclick="changeImage(this)">
+            <img src="./Images/Image4.jpg" class="small" onclick="changeImage(this)">
+            <img src="./Images/Image5.jpg" class="small" onclick="changeImage(this)">
+        </div>
+    </div>
+    <div class="right">
+        <div class="right_content">
+         <p id="Vendor">Marmeto</p>
+        <h1 id="product">Embrace SideBoard</h1>
+        <hr>
+        <div class="price">
+            <div class="prices">
+        <h1 id="selling">$11999.00</h1>
+        </div>
+        <s><p id="cost">$17999.00</p></s>
+        </div>
+        <hr>
+        <h3 class="choose">Choose a color :</h3>
+        <input type="radio" id="color1" name="color" value="pinkish-purple">
+          <label for="color1" class="color-option" style="background-color: rgb(231, 143, 226);"></label>
+
+        <input type="radio" id="color2" name="color" value="shade-of-green">
+         <label for="color2" class="color-option" style="background-color: rgb(148, 184, 122);"></label>
+
+       <input type="radio" id="color3" name="color" value="yellow-green">
+        <label for="color3" class="color-option" style="background-color: rgb(225, 234, 126);"></label>
+
+        <input type="radio" id="color4" name="color" value="pinkish-red">
+        <label for="color4" class="color-option" style="background-color: rgb(231, 122, 149);"></label>
+     <hr>
+        <h3 class="choose">Choose a size :</h3>
+        <button class="buttons"><input type="radio" id="small" name="size" value="small">
+        <label for="small" class="size=option" > Small</label></button>
+        <button class="buttons"><input type="radio" id="medium" name="size" value="medium">
+        <label for="medium" class="size=option" >Medium</label></button>
+        <button class="buttons"><input type="radio" id="large" name="size" value="large">
+        <label for="large" class="size=option" >Large</label></button>
+        <button class="buttons"><input type="radio" id="Xlarge" name="size" value="Extra large">
+        <label for="Xlarge" class="size=option" >Extra Large</label></button>
+        <button class="buttons"><input type="radio" id="XXlarge" name="size" value="large">
+        <label for="XXlarge" class="size=option" >XXL</label></button>
+         <br>
+         <br>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+
+        <button class="add-to-cart-button" onclick="addToCart()">
+            <span class="cart-icon">&#128722;</span> Add to Cart
+          </button>
+          <br>
+          <br>
+          <div id="selected"></div>
+<hr>
+         <p class="descr">The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.
+
+         </p> 
+        </div>
+    </div>
+</div>
+    <!-- Happy codign 😊 -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
