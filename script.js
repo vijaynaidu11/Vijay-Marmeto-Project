@@ -1,10 +1,10 @@
 function addToCart() {
-    // Get selected values
+    
     var size = document.querySelector('input[name="size"]:checked');
     var color = document.querySelector('input[name="color"]:checked');
     var quantity = document.getElementById('quantity').value;
 
-    // Display selected details
+    
     var selectedDetails = document.getElementById('selected');
     if (size && color && quantity) {
         selectedDetails.innerHTML = "Embrace SideBoard in  "+color.value+" color  and  " + size.value + "  size with Quantity of " + quantity+" added to the cart ✔️";
