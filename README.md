@@ -8,3 +8,4 @@ Successfully completed the given assessment
 #after selecting the required color, size, quantity you can click add to cart button then
 #selected details will be shown below
 ### I hosted this webpage in GitHub pages where you can directly run my assignment ###
+Link GitHub pages : https://vijaynaidu11.github.io/Vijay-Marmeto-Project/
